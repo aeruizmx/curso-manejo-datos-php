@@ -52,4 +52,4 @@ echo "<pre>";
 var_dump($result7);
 echo "<br>";
 
-array_flip() // Intercambia valores - keys
+array_flip($courses); // Intercambia valores - keys
