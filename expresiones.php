@@ -8,4 +8,4 @@
 
 $password = '123456';
 // de 6 a 9 digitos numericos
-var_dump((bool) preg_match('/^$[0-9]{6,9}/',$password));
+var_dump((bool) preg_match('/^[0-9]{6,9}$/',$password));
